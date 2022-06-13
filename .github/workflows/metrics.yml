@@ -6,7 +6,7 @@ on:
     types: started
 #每天上午六点更新    
   push:
-    branches: "master"
+    branches: "main"
   workflow_dispatch:
 jobs:
   github-metrics-personal:
