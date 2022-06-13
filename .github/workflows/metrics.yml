@@ -17,7 +17,7 @@ jobs:
         with:
           filename: metrics.svg
           token: ${{ secrets.ACTION_TOKEN }}
-          committer_token: ${{ secrets.ACTION_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: ikexing-cn
           config_timezone: Asia/ShangHai
           config_order: base.header, isocalendar, base.repositories, pagespeed, people
@@ -47,7 +47,7 @@ jobs:
         uses: lowlighter/metrics@master
         with:
           filename: metrics.additional.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.ACTION_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: ikexing-cn
           config_timezone: Asia/ShangHai
