@@ -10,6 +10,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+alias t="nr test"
 alias d="nr dev"
 alias vz="vim ~/.zshrc"
 alias cz="code ~/.zshrc"
@@ -19,15 +20,16 @@ alias ms="sudo service mongodb start"
 alias mst="sudo service mongodb stop"
 
 # Git Alias
-alias ga="git add ."
-alias gs="git status"
-alias gm="git commit -m"
-alias gco="git checkout"
-alias gb="git branch"
-alias gba="git branch -a"
-alias gpl="git pull"
-alias gps="git push"
-alias gpr="git pull --rebase"
+alias gi="g init"
+alias ga="g add ."
+alias gs="g status"
+alias gm="g commit -m"
+alias gco="g checkout"
+alias gb="g branch"
+alias gba="g branch -a"
+alias gpl="g pull"
+alias gps="g push"
+alias gpr="g pull --rebase"
 
 export host_ip=$(cat /etc/resolv.conf |grep "nameserver" |cut -f 2 -d " ")
 alias proxy="export all_proxy=http://$host_ip:8889 http_proxy=http://$host_ip:8889 https_proxy=http://$host_ip:8889"
