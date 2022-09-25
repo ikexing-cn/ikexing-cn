@@ -1,20 +1,51 @@
 {
-  "window.zoomLevel": 1,
-  "workbench.colorTheme": "One Dark Pro Flat",
+  "workbench.colorTheme": "GitHub Dark Dimmed",
   "workbench.iconTheme": "material-icon-theme",
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": true,
   "editor.inlineSuggest.enabled": true,
   "todo-tree.highlights.useColourScheme": true,
-  "security.workspace.trust.untrustedFiles": "open",
   "editor.tabSize": 2,
   "editor.fontSize": 16,
-  "editor.formatOnSave": true,
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "git.autoStash": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace"
+  "editor.unicodeHighlight.allowedLocales": {
+    "cs": true,
+    "zh-hant": true
+  },
+  "postfix.languages": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "ts",
+    "js"
+  ],
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": false,
+    "vue": true,
+    "typescript": true
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.fontLigatures": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "window.zoomLevel": 1,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.accessibilitySupport": "off",
+  "editor.fontFamily": "Monaco, Fira Code, Jetbrains Mono, 'Courier New', monospace"
 }
