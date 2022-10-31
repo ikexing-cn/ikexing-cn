@@ -10,10 +10,12 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-alias t="bun run test"
-alias d="bun run dev"
-alias b="bun run build"
-alias p="bun run preview"
+alias s="nr start"
+alias t="nr test"
+alias tu="nr test -u"
+alias d="nr dev"
+alias b="nr build"
+alias p="nr play"
 alias bp="b && p"
 alias lint="npx eslint ."
 alias lintf="lint --fix"
