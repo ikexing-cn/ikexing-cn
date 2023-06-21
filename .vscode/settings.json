@@ -1,15 +1,14 @@
 {
-  "workbench.colorTheme": "GitHub Dark Dimmed",
   "workbench.iconTheme": "material-icon-theme",
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.inlineSuggest.enabled": true,
   "todo-tree.highlights.useColourScheme": true,
   "editor.tabSize": 2,
-  "editor.fontSize": 16,
+  "editor.fontSize": 15,
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.unicodeHighlight.allowedLocales": {
@@ -27,11 +26,14 @@
   ],
   "github.copilot.enable": {
     "*": true,
-    "yaml": true,
     "plaintext": true,
-    "markdown": false,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true,
     "vue": true,
-    "typescript": true
+    "typescript": true,
+    "rust": true,
+    "javascript": true
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "explorer.confirmDragAndDrop": false,
@@ -41,11 +43,69 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
   "liveServer.settings.donotShowInfoMsg": true,
-  "editor.formatOnSaveMode": "modificationsIfAvailable",
-  "window.zoomLevel": 1,
-  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "window.nativeTabs": true,
   "editor.formatOnType": true,
   "editor.formatOnPaste": true,
   "editor.accessibilitySupport": "off",
-  "editor.fontFamily": "Monaco, Fira Code, Jetbrains Mono, 'Courier New', monospace"
+  "editor.fontFamily": "Fira Code",
+  "[typescript]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "editor.formatOnSave": false,
+  "files.associations": {
+    "*.nvue": "vue"
+  },
+  "editor.parameterHints.cycle": true,
+  "editor.inlayHints.padding": true,
+  "terminal.integrated.defaultProfile.windows": "pwsh",
+  "terminal.integrated.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.mouseWheelZoom": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.fontWeight": "450",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
+  "eslint.lintTask.options": ". --cache",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "terminal.integrated.gpuAcceleration": "off",
+  "workbench.startupEditor": "none",
+  "files.watcherExclude": {
+    "**/.history/**": true
+  },
+  "javascript.preferences.autoImportFileExcludePatterns": ["**/.history/**"],
+  "typescript.preferences.autoImportFileExcludePatterns": ["**/.history/**"],
+  "files.exclude": {
+    "**/.history/**": true
+  },
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.env.osx": {},
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.env.linux": {},
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "window.zoomLevel": 1,
+  "console-ninja.featureSet": "Pro",
+  "workbench.colorTheme": "One Dark Pro",
+  "git.openRepositoryInParentFolders": "never",
+  "commentTranslate.hover.string": true,
+  "commentTranslate.hover.variable": true,
+  "commentTranslate.targetLanguage": "zh-CN"
 }
