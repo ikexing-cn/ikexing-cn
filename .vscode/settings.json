@@ -1,20 +1,71 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.smoothScrolling": true,
+  "workbench.tree.indent": 10,
+  "workbench.activityBar.visible": true,
   "workbench.list.smoothScrolling": true,
+  "workbench.sideBar.location": "left",
+  "workbench.tree.expandMode": "singleClick",
+  "editor.fontFamily": "Fira Code, monospace",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.guides.bracketPairs": "active",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.suggestSelection": "first",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.hover.sticky": true,
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "window.autoDetectColorScheme": true,
+  "window.dialogStyle": "custom",
+  "window.nativeTabs": true,
+  "window.titleBarStyle": "custom",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 5,
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "extensions.ignoreRecommendations": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.simpleDialog.enable": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.untrackedChanges": "separate",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.tabs.enabled": true,
+  "scm.diffDecorationsGutterWidth": 2,
+  "debug.onTaskErrors": "debugAnyway",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "search.exclude": {
+    "**/.git": true,
+    "**/.github": true,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/logs": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/tmp": true,
+    "**/yarn.lock": true
+  },
+  "editor.fontLigatures": true,
+  "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.inlineSuggest.enabled": true,
-  "todo-tree.highlights.useColourScheme": true,
   "editor.tabSize": 2,
-  "editor.fontSize": 15,
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
+  "editor.fontSize": 13.5,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.unicodeHighlight.allowedLocales": {
-    "cs": true,
-    "zh-hant": true
-  },
   "postfix.languages": [
     "javascript",
     "typescript",
@@ -24,35 +75,17 @@
     "ts",
     "js"
   ],
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": true,
-    "markdown": true,
-    "scminput": false,
-    "yaml": true,
-    "vue": true,
-    "typescript": true,
-    "rust": true,
-    "javascript": true
-  },
-  "diffEditor.ignoreTrimWhitespace": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "editor.fontLigatures": true,
-  "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
-  },
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.formatOnSaveMode": "file",
-  "window.nativeTabs": true,
   "editor.formatOnType": true,
-  "editor.formatOnPaste": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
   "editor.accessibilitySupport": "off",
-  "editor.fontFamily": "Fira Code",
-  "[typescript]": {
-    "editor.defaultFormatter": "Vue.volar"
+  "editor.cursorBlinking": "smooth",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.fontWeight": "450",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false
   },
-  "editor.formatOnSave": false,
   "files.associations": {
     "*.nvue": "vue"
   },
@@ -60,52 +93,11 @@
   "editor.inlayHints.padding": true,
   "terminal.integrated.defaultProfile.windows": "pwsh",
   "terminal.integrated.smoothScrolling": true,
-  "editor.cursorBlinking": "smooth",
   "editor.mouseWheelZoom": true,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "editor.acceptSuggestionOnEnter": "smart",
   "liveServer.settings.donotVerifyTags": true,
-  "editor.fontWeight": "450",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.expand": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "Vue.volar"
-  },
-  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
-  "eslint.lintTask.options": ". --cache",
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
-  "terminal.integrated.gpuAcceleration": "off",
-  "workbench.startupEditor": "none",
-  "files.watcherExclude": {
-    "**/.history/**": true
-  },
-  "javascript.preferences.autoImportFileExcludePatterns": ["**/.history/**"],
-  "typescript.preferences.autoImportFileExcludePatterns": ["**/.history/**"],
-  "files.exclude": {
-    "**/.history/**": true
-  },
-  "workbench.editor.enablePreview": false,
-  "terminal.integrated.env.osx": {},
-  "terminal.integrated.env.windows": {},
-  "terminal.integrated.env.linux": {},
-  "editor.unicodeHighlight.nonBasicASCII": false,
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
   "window.zoomLevel": 1,
-  "console-ninja.featureSet": "Pro",
   "workbench.colorTheme": "One Dark Pro",
-  "git.openRepositoryInParentFolders": "never",
-  "commentTranslate.hover.string": true,
-  "commentTranslate.hover.variable": true,
-  "commentTranslate.targetLanguage": "zh-CN"
+  "terminal.integrated.env.osx": {},
+  "explorer.confirmDelete": false,
 }
