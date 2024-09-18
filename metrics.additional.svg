@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="981" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1129" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.center{justify-content:center}.horizontal{justify-content:space-around}.horizontal-wrap{flex-wrap:wrap}.no-wrap{white-space:nowrap}#metrics-end,.fill-width{width:100%}.margin-bottom{margin-bottom:16px}.no-margin-top{margin-top:0}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details,.field.language.details small{display:flex;justify-content:space-between}.field.language.details small{color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.activity .field,.chart-bars.horizontal .entry .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%}.chart-bars .entry .bottom{margin-bottom:-1rem;line-height:1rem}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.activity{margin-bottom:12px}.activity .field{width:100%;max-width:450px;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.horizontal .field,.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.center{justify-content:center}.horizontal{justify-content:space-around}.horizontal-wrap{flex-wrap:wrap}.no-wrap{white-space:nowrap}#metrics-end,.fill-width{width:100%}.margin-bottom{margin-bottom:16px}.no-margin-top{margin-top:0}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details,.field.language.details small{display:flex;justify-content:space-between}.field.language.details small{color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars.horizontal{flex-direction:column;height:100%}.chart-bars.horizontal .entry{align-items:center;flex-direction:row;width:100%;min-height:1rem}.activity .field,.chart-bars.horizontal .entry .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.chart-bars.horizontal .entry .name{flex-shrink:0;text-align:right;width:34%}.chart-bars .entry .bottom{margin-bottom:-1rem;line-height:1rem}.chart-bars.horizontal .bar{height:7px;width:auto;margin:0 6px}.activity{margin-bottom:12px}.activity .field{width:100%;max-width:450px;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}.gemoji{height:1em;width:1em;margin-bottom:-.125em}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -114,7 +114,7 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 36 commits)</small>
+                    <small class="h-details">(computed from last 39 commits)</small>
                 </h2>
             </section>
             <section class="habits">
@@ -222,8 +222,8 @@
                             19
                         </div>
                         <div class="entry">
-                            <span class="value">2</span>
-                            <div class="bar" style="height: 14.285714285714285px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">4</span>
+                            <div class="bar" style="height: 28.57142857142857px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                             20
                         </div>
                         <div class="entry">
@@ -232,8 +232,8 @@
                             21
                         </div>
                         <div class="entry">
-                            <span class="value">1</span>
-                            <div class="bar" style="height: 7.142857142857142px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">2</span>
+                            <div class="bar" style="height: 14.285714285714285px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             22
                         </div>
                         <div class="entry">
@@ -253,8 +253,8 @@
                                 Sun
                             </div>
                             <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                <span class="value">3</span>
+                                <div class="bar" style="height: 12.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Mon
                             </div>
                             <div class="entry">
@@ -289,8 +289,8 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">TypeScript</span>
-                                <div class="bar" style="width: 69.73142575234337%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
-                                <span class="value">87%</span>
+                                <div class="bar" style="width: 64.6042417045332%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value">81%</span>
                             </div>
                         </div>
                     </section>
@@ -310,13 +310,8 @@
                             <div class="entry">
                                 <span class="value">68</span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                4
-                                <div class="bottom">Sep.</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 5
+                                <div class="bottom">Sep.</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -377,6 +372,11 @@
                                 <span class="value"></span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 17
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                18
                             </div>
                         </div>
                     </section>
@@ -386,13 +386,8 @@
                             <div class="entry">
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
-                                4
-                                <div class="bottom">Sep.</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 5
+                                <div class="bottom">Sep.</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -453,6 +448,11 @@
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 17
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                18
                             </div>
                         </div>
                     </section>
@@ -573,7 +573,7 @@
                                     </svg>
                                     <div class="content">
                                         Starred
-                                        <span class="repo">continuedev/continue</span>
+                                        <span class="repo">danielroe/nuxt-time</span>
                                     </div>
                                 </div>
                             </section>
@@ -590,10 +590,10 @@
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">feat/type-system</span></div>
+                                    <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#9c56214</div>
-                                        <div class="message">fix editor folding strategy</div>
+                                        <div class="sha">#ba6a32b</div>
+                                        <div class="message">feat: handle parent class members</div>
                                     </div>
                                 </div>
                             </section>
@@ -605,15 +605,85 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 1 commit in
+                                        Pushed 12 commits in
                                         <span class="repo">intellizen-dev/intellizen</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">feat/type-system</span></div>
+                                    <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#6692fe3</div>
-                                        <div class="message">add type guards</div>
+                                        <div class="sha">#8fe89d6</div>
+                                        <div class="message">feat: initialize type system prototype (#7)
+
+Co-authored-by: raylras &lt;raylras@outlook.com&gt;
+Co-authored-by: WarmthDawn &lt;warmth06@sina.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f3e4913</div>
+                                        <div class="message">fix: monorepo dep</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#2f7c054</div>
+                                        <div class="message">feat: name provider (#5)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d3e0dd7</div>
+                                        <div class="message">feat: improve dev mode (#6)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#dcab7c0</div>
+                                        <div class="message">feat: test with langium syntax parse (#2)
+
+Co-authored-by: WarmthDawn &lt;warmth06@sina.com&gt;
+Co-authored-by: raylras &lt;raylras@outlook.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f826315</div>
+                                        <div class="message">fix: string template (#4)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#86e1169</div>
+                                        <div class="message">
+                                            feat: qualified name scoping (#3)
+
+*
+                                            <img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" />
+                                            qualified name scoping
+
+* :chore: eslint
+
+* fix: split export functions, remove extends and add cancelToken for local resolve
+
+* code style
+
+* rename `typeRef` to `value` in `TypeReference`
+
+---------
+
+Co-authored-by: raylras &lt;raylras@outlook.com&gt;
+                                        </div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#ecab562</div>
+                                        <div class="message">build: fix build paths</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#c21d9d5</div>
+                                        <div class="message">fix: right associativity expressions</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#06d8f15</div>
+                                        <div class="message">feat: initialize langium grammar (#1)
+
+Co-authored-by: WarmthDawn &lt;warmth06@sina.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#fc05ed9</div>
+                                        <div class="message">build: fix build paths</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#ce9853e</div>
+                                        <div class="message">chore: sort dev deps</div>
                                     </div>
                                 </div>
                             </section>
@@ -622,18 +692,14 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                        <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 1 commit in
+                                        Created new
+                      branch
+                                        <span class="code">feat/type-system</span>
+                                        in
                                         <span class="repo">intellizen-dev/intellizen</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">feat/type-system</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#bac4b20</div>
-                                        <div class="message">redesign type</div>
                                     </div>
                                 </div>
                             </section>
