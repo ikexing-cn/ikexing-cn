@@ -24,6 +24,7 @@ jobs:
           config_padding: 10%
           use_prebuilt_image: master
           base: "header, repositories"
+          repositories_affiliations: public
           
           plugin_isocalendar: yes
 
@@ -55,6 +56,7 @@ jobs:
           config_padding: 10%
           use_prebuilt_image: master
           base: ""
+          repositories_affiliations: public
 
           plugin_followup: yes
 
@@ -70,6 +72,7 @@ jobs:
           plugin_languages_skipped: lowlighter
 
           plugin_repositories: yes
+          plugin_repositories_affiliations: public
 
           plugin_activity: yes
           plugin_activity_limit: 4
